@@ -25,7 +25,7 @@ resolutionElement.innerText = resolution;
 
 function updateWillMeetResolution() {
     // Update this function
-willMeetResolutionElement.innerText = willMeetResolution;
+willMeetResolutionElement.innerText = willMeetResolution ? "Yes.": "No.";
 }
 
 
