@@ -18,5 +18,31 @@ isRad = false;
 
 console.log(isRad)
 console.log(typeof isRad)
-*/
 
+
+let mystery;
+console.log(mystery)         
+console.log(typeof mystery)
+
+const nothing = null;
+console.log(nothing);
+console.log(typeof nothing)
+
+const sym = Symbol("foo")
+console.log(sym);
+console.log(typeof sym);
+
+const bigNumber = 2813308004;
+console.log(bigNumber)
+console.log(typeof bigNumber);
+
+const person = {
+    firstName: "Bobby",
+    lastName: "Durham",
+    age: 31,
+    eyeColor: "blue",
+};
+
+console.log(person.firstName + " " + person.lastName + " is " + person.age + " and has " + person.eyeColor + " eyes.");
+
+*/
